@@ -69,6 +69,10 @@
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
 
+    img {
+      width: 100%;
+    }
+
     .icon {
       &:before {
         font-size: 2rem;
@@ -278,5 +282,10 @@
         }
       }
     }
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
   }
 }

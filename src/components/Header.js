@@ -1,21 +1,23 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import uniteLogo from '../images/unite-logo.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <img src={uniteLogo} alt="" />
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>UNITE Youth Gathering 2021</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          <strong>July 28 - 30th</strong>
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Visalia Convention Center
         </p>
+        {/* <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/BAz-F5DKD_4"></iframe>
+        </div> */}
       </div>
     </div>
     <nav>
@@ -23,37 +25,46 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('event')
             }}
           >
-            Intro
+            Event
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('hotels')
             }}
           >
-            Work
+            Hotels
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('registration')
             }}
           >
-            About
+            Registration
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('contact')
+              props.onOpenArticle('after-events')
             }}
           >
-            Contact
+            After Events
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('event-poster')
+            }}
+          >
+            Event Poster
           </button>
         </li>
       </ul>
