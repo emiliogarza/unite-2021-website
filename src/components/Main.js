@@ -40,7 +40,8 @@ class Main extends React.Component {
             Visalia, CA 93291
           </p>
           <h3>Schedule</h3>
-          <p><strong>Wed Night July 28th - Friday Night July 30th</strong></p>
+          <p>Coming Soon</p>
+          {/* <p><strong>Wed Night July 28th - Friday Night July 30th</strong></p>
           <p className="mb-0"><strong>Wednesday</strong></p>
           <ul>
             <li>5:30pm Registration and Doors Open</li>
@@ -64,7 +65,7 @@ class Main extends React.Component {
             <li>5:30pm Registration and Doors Open</li>
             <li>7pm Pre-Service Begins</li>
             <li>7:30pm MTM Service Begins</li>
-          </ul>
+          </ul> */}
           <h3>Breakout Sessions</h3>
           <p>
             Breakout Session Details to come.
@@ -110,7 +111,6 @@ class Main extends React.Component {
         >
           <h2 className="major">After-Events</h2>
           <p>
-            Registration will open on <strong>May 24th</strong><br />
             After-Events will open on <strong>May 31st</strong>
           </p>
           {close}

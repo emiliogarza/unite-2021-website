@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import uniteLogo from '../images/unite-logo.png'
+import wdyouthLogo from '../images/wdyouth-logo.png'
+import socalLogo from '../images/socal-logo.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -9,12 +11,16 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
+
         <h1>UNITE Youth Gathering 2021</h1>
-        <p>
+        <p className="mb-0">
           <strong>July 28 - 30th</strong>
-          <br />
+        </p>
+        <p>
           Visalia Convention Center
         </p>
+        <img src={wdyouthLogo} className="header-logos header-logos__wdyouth" alt="WDYouth Logo" />
+        <img src={socalLogo} className="header-logos" alt="Socal Logo" />
         {/* <div class="video-container">
           <iframe src="https://www.youtube.com/embed/BAz-F5DKD_4"></iframe>
         </div> */}
