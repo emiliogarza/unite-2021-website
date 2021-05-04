@@ -82,8 +82,49 @@ class Main extends React.Component {
         >
           <h2 className="major">Hotels</h2>
           <p>
-            Hotels will open on <strong>May 17th</strong>
+          <strong>These hotels rates / blocks are not open yet. You may begin making reservations on May 17th.</strong>
           </p>
+          <p>
+          <strong>Marriott (HQ)</strong><br />
+            300 South Court St.<br />
+            Visalia, CA 93291<br />
+            559.636.1111<br />
+            Room Rate: $169.00<br />
+            Cutoff Date: 7/1/21
+            </p>
+            <p>
+            <strong>Comfort Suites</strong><br />
+            210 E. Acequia Ave.<br />
+            Visalia, CA 93291<br />
+            559.738.1700<br />
+            Room Rate: $179.00<br />
+            Cutoff Date: 7/15/21<br />
+            No cancelations after 7/1/21<br />
+            </p>
+            <p>
+            <strong>Wyndham</strong><br />
+            9000 W Airport Dr.<br />
+            Visalia, CA 93277<br />
+            559.651.5000<br />
+            Room Rate: $124.00<br />
+            Cutoff Date: 7/1/21
+            </p>
+            <p>
+            <strong>Residence Inn</strong><br />
+            205 North Plaza Dr.<br />
+            Visalia, CA 93291<br />
+            559.205.1515<br />
+            Room Rate: $164.00<br />
+            Cutoff Date: 7/6/21
+            </p>
+            <p>
+            <strong>LampLiter Inn</strong><br />
+            3300 W. Mineral King Ave.<br />
+            Visalia, CA 93291<br />
+            559.732.4511<br />
+            Room Rate: $104.00<br />
+            Cutoff Date: 7/14/21
+            </p>
           {close}
         </article>
 
@@ -96,8 +137,8 @@ class Main extends React.Component {
         >
           <h2 className="major">Registration</h2>
           <p>
-            Registration will open on <strong>May 24th</strong><br />
-            After-Events will open on <strong>May 31st</strong>
+            Event Registration will open on <strong>May 24th</strong> and will be <strong>$35</strong><br />
+            After-Event tickets will open on <strong>May 31st</strong>
           </p>
           {close}
         </article>
