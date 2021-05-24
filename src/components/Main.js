@@ -138,7 +138,7 @@ class Main extends React.Component {
           <h2 className="major">Registration</h2>
           <p>
             Event Registration will open <strong>at noon May 24th</strong>, see our Event-Brite to register<br />
-            <strong><a href="https://www.eventbrite.com/e/unite-combined-youth-gathering-2021-tickets-156005987107" target="_blank">Buy Eventbite Registration</a></strong>
+            <strong><a href="https://www.eventbrite.com/e/unite-combined-youth-gathering-2021-tickets-156005987107" target="_blank">Buy Eventbrite Registration</a></strong>
           </p>
           {close}
         </article>
