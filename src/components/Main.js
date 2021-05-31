@@ -152,7 +152,16 @@ class Main extends React.Component {
         >
           <h2 className="major">After-Events</h2>
           <p>
-            After-Events will open on <strong>May 31st</strong>
+            After-Events will open on <strong>May 31st at 7pm</strong><br />
+            <strong><a href="https://www.eventbrite.com/e/unite-after-event-tickets-tickets-157519650515" target="_blank">Buy Eventbrite After-Event Tickets</a></strong>
+          </p>
+          <p>
+          After-Events:
+            <ul>
+              <li>Wednesday Evening: Food Trucks</li>
+              <li>Thursday Evening: Rollertowne ($15) and Bowlero ($25)</li>
+              <li>Friday Evening: Adventure Park ($25) and Hyphen Hangout ($10)</li>
+            </ul>
           </p>
           {close}
         </article>
