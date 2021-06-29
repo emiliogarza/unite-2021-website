@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import eventPoster from '../images/unite-flyer.jpg'
+import spotifyLogo from '../images/spotify-music-logo.png'
+import iTunesLogo from '../images/apple-music-logo.png'
 
 class Main extends React.Component {
   render() {
@@ -175,6 +177,23 @@ class Main extends React.Component {
         >
           <h2 className="major">Event Poster</h2>
           <img src={eventPoster} className="w-100" alt="UNITE Event Poster" />
+          {close}
+        </article>
+        <article
+          id="playlists"
+          className={`${this.props.article === 'playlists' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Playlists</h2>
+          <p>Songs that will be sang at UNITE are available for your listening at the below playlists!</p>
+          <a href="https://open.spotify.com/playlist/3sRQAxJneStM4L2fOcNyE5?si=nXC7y3sUTrys1KbBbOaJ6g&utm_source=embed_v2&go=1&play=1&nd=1" target="_blank">
+            <img src={spotifyLogo} className="block w-100 mb-2" alt="UNITE Event Poster" alt="Spotify Playlist" />
+          </a>
+          <a href="https://music.apple.com/us/playlist/unite-conference-2021/pl.u-pMylgxEh49zrogq" target="_blank">
+            <img src={iTunesLogo} className="block w-100 mb-2" alt="UNITE Event Poster" alt="Apple Music Playlist" />
+          </a>
           {close}
         </article>
       </div>

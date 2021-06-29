@@ -73,6 +73,15 @@ const Header = props => (
             Event Poster
           </button>
         </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('playlists')
+            }}
+          >
+            Playlists
+          </button>
+        </li>
       </ul>
     </nav>
   </header>
