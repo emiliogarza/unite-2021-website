@@ -71,10 +71,6 @@ class Main extends React.Component {
             <li>7pm Pre-Service Begins</li>
             <li>7:30pm MTM Service Begins</li>
           </ul> */}
-          <h3>Breakout Sessions</h3>
-          <p>
-            Breakout Session Details to come.
-          </p>
           {close}
         </article>
 
