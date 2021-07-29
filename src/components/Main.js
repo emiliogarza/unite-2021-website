@@ -3,6 +3,8 @@ import React from 'react'
 import eventPoster from '../images/unite-flyer.jpg'
 import spotifyLogo from '../images/spotify-music-logo.png'
 import iTunesLogo from '../images/apple-music-logo.png'
+import thursdaySchedule from '../images/thursday-schedule.jpg'
+import fridaySchedule from '../images/friday-schedule.jpg'
 
 class Main extends React.Component {
   render() {
@@ -42,7 +44,8 @@ class Main extends React.Component {
             Visalia, CA 93291
           </p>
           <h3>Schedule</h3>
-          <p>Coming Soon</p>
+          <img src={thursdaySchedule} className="w-100" alt="Thursday Schedule" />
+          <img src={fridaySchedule} className="w-100" alt="Friday Schedule" />
           {/* <p><strong>Wed Night July 28th - Friday Night July 30th</strong></p>
           <p className="mb-0"><strong>Wednesday</strong></p>
           <ul>
