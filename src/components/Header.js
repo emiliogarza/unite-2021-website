@@ -12,12 +12,12 @@ const Header = props => (
     <div className="content">
       <div className="inner">
 
-        <h1>UNITE Youth Gathering 2021</h1>
+        <h1>UNITE Youth Gathering</h1>
         <p className="mb-0">
-          <strong>July 28 - 30th</strong>
+          <strong>Thank you for your support of Unite 2021.</strong>
         </p>
         <p>
-          Visalia Convention Center
+          Follow our websites <a href="https://linktr.ee/socalyouth" taget="_blank" rel="noreferrer">SoCal Youth</a> and <a href="https://linktr.ee/wdyouth" taget="_blank" rel="noreferrer">WDYouth</a> to stay up to date on events in the future.
         </p>
         <img src={wdyouthLogo} className="header-logos header-logos__wdyouth" alt="WDYouth Logo" />
         <img src={socalLogo} className="header-logos" alt="Socal Logo" />
@@ -26,6 +26,7 @@ const Header = props => (
         </div> */}
       </div>
     </div>
+    {/*
     <nav>
       <ul>
         <li>
@@ -84,6 +85,7 @@ const Header = props => (
         </li>
       </ul>
     </nav>
+     */}
   </header>
 )
 
